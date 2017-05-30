@@ -1,19 +1,19 @@
 # Universidad ICESI - Sistemas Operativos - Proyecto Final
- A00232548 - Joan Alexis C髍doba Narv醗z
+ A00232548 - Joan Alexis C贸rdoba Narv谩ez
 
-Para la realizaci髇 de esta actividad se ha configurado:
+Para la realizaci贸n de esta actividad se ha configurado:
 <ul>
 	<li>Maquina Virtual con Ubuntu Server 16.04 </li>
 	<li>Memoria RAM: 2GB</li>
 	<li>Disco Duro: 20GB</li>
-	<li>Dos n鷆leos</li>
+	<li>Dos n煤cleos</li>
 	<li>Interfaces de red: NAT, Bridge y Host</li>
 </ul>
 
-Para la configuraci髇 de las interdaces de red, se edita el archivo "interfaces" que se encuentra en /etc/network/ y se activa dchp para cada una de ellas como aparece en el archivo interfaces ubicado en este repositorio.
+Para la configuraci贸n de las interdaces de red, se edita el archivo "interfaces" que se encuentra en /etc/network/ y se activa dchp para cada una de ellas como aparece en el archivo interfaces ubicado en este repositorio.
 Luego, se reinician los servicios de red "service networking restart"
 
-Usamos sudo ufw allow xxxx para abrir un puerto requerido, donde xxxx es el n鷐ero del puerto.
+Usamos sudo ufw allow xxxx para abrir un puerto requerido, donde xxxx es el n煤mero del puerto.
 
 Se instalan algunas dependencias requeridas por ubuntu para Python
 sudo apt-get install build-essential checkinstall libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
@@ -30,7 +30,7 @@ cd Python-2.7.13<br>
 sudo ./configure<br>
 sudo make install<br>
 
-Se procede a la instalaci髇 de PIP, VirtualEnv y Flask<br>
+Se procede a la instalaci贸n de PIP, VirtualEnv y Flask<br>
 
 a. Instalar virtualenv <br>
 sudo apt-get install virtualenv<br>
@@ -39,18 +39,16 @@ mkdir envs<br>
 cd envs<br>
 virtualenv flask_env<br>
 Activar el ambiente<br>
-flask_env/bin/act韛ate<br>
+flask_env/bin/act铆vate<br>
 
 Luego se copia los Scripts de Python creados antes en el anterior parcial (parcial dos).
 Se instalan las debidas aplicaciones para que los servicios se activen y podamos obtener las salidas que esperamos
 y salidas son:
 
-<ul>
-	<li>![][1]</li>
-	<li>![][2]</li>
-	<li>![][3]</li>
 
-</ul>
+	![][1]
+	![][2]
+	![][3]
 
 [1]: imgs/img1.png
 [2]: imgs/img2.png
